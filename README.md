@@ -38,7 +38,6 @@ I decided redoing it from scratch and thought that going with OpenCore would be 
 * Intel BT works, but has no power control (isn't supported on non-BCM chips in macOS)
 * Touchpad is detected as a mouse and only supports basic gestures (same on Linux, needs a custom driver)
 * Card reader is not tested
-* Sleep sometimes takes ridiculous 2 minutes until the laptop is fully suspended (maybe not a bug?)
 
 ## Hints:
 * Laptop uses an m.2 NGFF slot and doesn't have Wi-Fi blacklist in the BIOS, so pretty much any macOS-compatible combo chip in that form-factor should work fine.
