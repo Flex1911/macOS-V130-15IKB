@@ -34,11 +34,11 @@ My first setup with Clover on that laptop had a lot of memory-related issues I c
 I decided redoing it from scratch and thought that going with OpenCore would be a cool and fun idea since it's something new and I didn't deal with it earlier. Coincidentally or not, that fixed all my memory and sleep issues. Digging deeper into it made me realize that it's not just the lack of the memory issues what makes OpenCore better. I'm not going to explain all the advantages here since they're covered in every single article about OpenCore on the web, just going to say that it feels like a cleaner and more future-proof solution for me and I don't miss any Clover features it lacks.
 
 ## Current issues:
-* No Wi-Fi (needs a card replacement or a dongle)
-* Intel BT works, but has no power control (isn't supported on non-BCM chips in macOS)
+* No internal Wi-Fi (I use a dongle)
 * Touchpad is detected as a mouse and only supports basic gestures (same on Linux, needs a custom driver)
 * Card reader is not tested
 
 ## Hints:
 * Laptop uses an m.2 NGFF slot and doesn't have Wi-Fi blacklist in the BIOS, so pretty much any macOS-compatible combo chip in that form-factor should work fine.
 * HoRNDIS kext is included for USB tethering support.
+* I use TP-Link Archer T2U Nano for Wi-Fi which works just fine with the official driver for Catalina.
