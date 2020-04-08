@@ -8,7 +8,7 @@ Based on OpenCore using ACPI hotpatch, tested with Catalina 10.15.4.
 * Intel HD Graphics 620
 * 4GB DDR4 2400MHz Single-channel RAM
 * 15.6" Full HD TN Display
-* Intel Wireless-AC 9260 Wi-Fi + BT Combo
+* Intel Wireless-AC 3165 Wi-Fi + BT Combo
 * Realtek RTL8168H Gigabit Ethernet
 * ALPS AUI1657 Touchpad (Multitouch gestures only work on Windows with a proprietary driver)
 * 2x USB 3.0 Ports (no EHCI since it's Kaby Lake)
